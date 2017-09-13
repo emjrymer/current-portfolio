@@ -17,7 +17,7 @@ body.portfolio-overflow {
 }
 
 a {
-  color: #fb6e14;
+  color: #337ab7;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -63,21 +63,21 @@ p {
 }
 
 .btn-primary {
-  background: #fb6e14;
+  background: #337ab7;
   color: #fff;
-  border: 2px solid #fb6e14;
+  border: 2px solid #337ab7;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #f16104 !important;
-  border-color: #f16104 !important;
+  background: #8a6d3b !important;
+  border-color: #8a6d3b !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #fb6e14;
-  border: 2px solid #fb6e14;
+  color: #337ab7;
+  border: 2px solid #337ab7;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #fb6e14;
+  background: #337ab7;
   color: #fff;
 }
 
@@ -182,7 +182,7 @@ p {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #fb6e14;
+  border-color: #337ab7;
 }
 
 /*
@@ -217,6 +217,7 @@ p {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  text-shadow: 7px 12px 7px black;
 }
 @media screen and (max-width: 992px) {
   #portfolio-home .flexslider .portfolio-text h1 {
@@ -246,7 +247,7 @@ p {
   text-transform: none;
 }
 #portfolio-home .flexslider .portfolio-text h2 a {
-  color: #fb6e14;
+  color: #ccc;
 }
 #portfolio-home .flexslider .slides li {
   background-repeat: no-repeat;
@@ -321,7 +322,8 @@ p {
 .portfolio-main-nav .portfolio-menu-1 a.active,
 .portfolio-main-nav .portfolio-menu-2 a.active,
 .portfolio-main-nav .portfolio-logo a.active {
-  color: #fb6e14;
+  color: #222;
+  text-shadow: 6px 12px 6px rgba(167, 110, 120, 0.56);
 }
 .portfolio-main-nav .portfolio-menu-1 {
   text-align: right;
@@ -367,7 +369,7 @@ p {
   width: 40px;
   height: 2px;
   left: 50%;
-  background: #fb6e14;
+  background: #337ab7;
   margin-left: -20px;
 }
 .portfolio-heading .sub-heading {
@@ -404,7 +406,8 @@ p {
 #portfolio-about .portfolio-text {
   padding: 2em 6em;
   text-align: left;
-  background: #130d08 url(../images/wood_1.png) repeat;
+  background: #130d08 url(../images/abstract-pastel-19.jpg) repeat;
+  opacity: .7;
 }
 @media screen and (max-width: 1200px) {
   #portfolio-about .portfolio-text {
@@ -430,12 +433,12 @@ p {
   width: 40px;
   height: 2px;
   left: 50%;
-  background: #fb6e14;
+  background: #337ab7;
   margin-left: -20px;
 }
 #portfolio-about .portfolio-text p {
   line-height: 2;
-  color: #a99c92;
+  color: #8a6d3b;
 }
 #portfolio-about .portfolio-text p span.firstcharacter {
   float: left;
@@ -533,7 +536,7 @@ p {
   position: relative;
   background: transparent;
   box-shadow: none;
-  border: 2px solid #fb6e14;
+  border: 2px solid #337ab7;
 }
 
 #portfolio-featured {
@@ -562,7 +565,7 @@ p {
   margin-left: -32px;
 }
 #portfolio-featured .portfolio-heading .sub-heading {
-  color: #a99c92;
+  color: #8a6d3b;
 }
 #portfolio-featured .portfolio-grid {
   display: -webkit-box;
@@ -595,7 +598,7 @@ p {
   height: 2px;
   left: 50%;
   margin-left: -20px;
-  background: #fb6e14;
+  background: #337ab7;
 }
 #portfolio-featured .portfolio-grid .arrow-left:before, #portfolio-featured .portfolio-grid .arrow-left::before {
   content: "";
@@ -783,7 +786,7 @@ p {
   margin-left: -32px;
 }
 #portfolio-menus .portfolio-heading .sub-heading {
-  color: #a99c92;
+  color: #8a6d3b;
 }
 #portfolio-menus .portfolio-food-menu {
   float: left;
@@ -879,7 +882,7 @@ p {
   width: 20%;
   text-align: right;
   font-size: 20px;
-  color: #fb6e14;
+  color: #337ab7;
 }
 
 #portfolio-events {
@@ -919,7 +922,7 @@ p {
   margin-left: -24px;
 }
 #portfolio-events .portfolio-heading .sub-heading {
-  color: #a99c92;
+  color: #8a6d3b;
 }
 @media screen and (max-width: 768px) {
   #portfolio-events {
@@ -960,7 +963,7 @@ p {
 }
 #portfolio-events .portfolio-event .portfolio-event-meta:after, #portfolio-events .portfolio-event .portfolio-event-meta::after {
   background: #bfbfbf;
-  background: #fb6e14;
+  background: #337ab7;
   content: "";
   position: absolute;
   left: 50%;
@@ -1013,7 +1016,7 @@ p {
   margin-left: -24px;
 }
 #portfolio-contact .portfolio-heading .sub-heading {
-  color: #a99c92;
+  color: #8a6d3b;
 }
 #portfolio-contact .portfolio-social {
   padding: 0;
@@ -1128,10 +1131,10 @@ p {
 #portfolio-offcanvas a:hover, #portfolio-offcanvas a:focus, #portfolio-offcanvas a:active {
   outline: none;
   text-decoration: none;
-  color: #fb6e14;
+  color: #337ab7;
 }
 #portfolio-offcanvas a.active {
-  color: #fb6e14;
+  color: #337ab7;
 }
 @media screen and (max-width: 768px) {
   #portfolio-offcanvas {
@@ -1323,7 +1326,7 @@ p {
   margin-top: -125px;
   width: 104px;
   height: 104px;
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  /*border: 2px solid rgba(255, 255, 255, 0.2);*/
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1331,15 +1334,19 @@ p {
 }
 #portfolio-type h3.with-icon.icon-1:before, #portfolio-type h3.with-icon.icon-1::before {
   background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Wordpress-Logo.svg/200px-Wordpress-Logo.svg.png) no-repeat center center;
+  background-size: contain;
 }
 #portfolio-type h3.with-icon.icon-2:before, #portfolio-type h3.with-icon.icon-2::before {
   background: url(http://www.truedesigners.ru/sites/default/files/articles/bootstrap.png) no-repeat center center;
+  background-size: contain;
 }
 #portfolio-type h3.with-icon.icon-3:before, #portfolio-type h3.with-icon.icon-3::before {
   background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png) no-repeat center center;
+  background-size: contain;
 }
 #portfolio-type h3.with-icon.icon-4:before, #portfolio-type h3.with-icon.icon-4::before {
   background: url(http://plainicon.com/dboard/userprod/2800_a1826/prod_thumb/plainicon.com-50298-256px-4b4.png) no-repeat center center;
+  background-size: contain;
 }
 #portfolio-type p {
   color: rgba(255, 255, 255, 0.7);
